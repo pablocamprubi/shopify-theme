@@ -1,0 +1,440 @@
+{% doc %}
+  @prompt
+    comparision slider image
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-comparison-slider-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-comparison-slider-container-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: {{ block.settings.height }}px;
+    overflow: hidden;
+  }
+
+  .ai-comparison-slider-image-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-comparison-slider-before-{{ ai_gen_id }} {
+    z-index: 1;
+  }
+
+  .ai-comparison-slider-after-{{ ai_gen_id }} {
+    z-index: 2;
+    clip-path: inset(0 0 0 50%);
+    transition: clip-path 0.1s ease;
+  }
+
+  .ai-comparison-slider-handle-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background-color: {{ block.settings.handle_color }};
+    cursor: ew-resize;
+    z-index: 3;
+    transform: translateX(-50%);
+    transition: left 0.1s ease;
+  }
+
+  .ai-comparison-slider-handle-{{ ai_gen_id }}::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: {{ block.settings.handle_size }}px;
+    height: {{ block.settings.handle_size }}px;
+    background-color: {{ block.settings.handle_color }};
+    border: 3px solid {{ block.settings.handle_border_color }};
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .ai-comparison-slider-handle-{{ ai_gen_id }}::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid {{ block.settings.handle_border_color }};
+    border-right: 8px solid {{ block.settings.handle_border_color }};
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .ai-comparison-slider-labels-{{ ai_gen_id }} {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 4;
+    pointer-events: none;
+  }
+
+  .ai-comparison-slider-label-{{ ai_gen_id }} {
+    background-color: {{ block.settings.label_bg_color }};
+    color: {{ block.settings.label_text_color }};
+    padding: 8px 16px;
+    border-radius: {{ block.settings.label_border_radius }}px;
+    font-size: {{ block.settings.label_font_size }}px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    opacity: {{ block.settings.label_opacity | divided_by: 100.0 }};
+  }
+
+  .ai-comparison-slider-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: {{ block.settings.height }}px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-comparison-slider-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .ai-comparison-slider-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-comparison-slider-{{ ai_gen_id }} {
+      max-width: 100%;
+    }
+
+    .ai-comparison-slider-container-{{ ai_gen_id }} {
+      height: {{ block.settings.height | times: 0.75 }}px;
+    }
+
+    .ai-comparison-slider-placeholder-{{ ai_gen_id }} {
+      height: {{ block.settings.height | times: 0.75 }}px;
+    }
+
+    .ai-comparison-slider-labels-{{ ai_gen_id }} {
+      padding: 0 15px;
+    }
+
+    .ai-comparison-slider-label-{{ ai_gen_id }} {
+      font-size: {{ block.settings.label_font_size | times: 0.9 }}px;
+      padding: 6px 12px;
+    }
+  }
+{% endstyle %}
+
+<image-comparison-slider-{{ ai_gen_id }}
+  class="ai-comparison-slider-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.before_image and block.settings.after_image %}
+    <div class="ai-comparison-slider-container-{{ ai_gen_id }}">
+      <img
+        src="{{ block.settings.before_image | image_url: width: 2000 }}"
+        alt="{{ block.settings.before_image.alt | escape }}"
+        class="ai-comparison-slider-image-{{ ai_gen_id }} ai-comparison-slider-before-{{ ai_gen_id }}"
+        loading="lazy"
+        width="{{ block.settings.before_image.width }}"
+        height="{{ block.settings.before_image.height }}"
+      >
+      <img
+        src="{{ block.settings.after_image | image_url: width: 2000 }}"
+        alt="{{ block.settings.after_image.alt | escape }}"
+        class="ai-comparison-slider-image-{{ ai_gen_id }} ai-comparison-slider-after-{{ ai_gen_id }}"
+        loading="lazy"
+        width="{{ block.settings.after_image.width }}"
+        height="{{ block.settings.after_image.height }}"
+      >
+      <div class="ai-comparison-slider-handle-{{ ai_gen_id }}"></div>
+      
+      {% if block.settings.show_labels %}
+        <div class="ai-comparison-slider-labels-{{ ai_gen_id }}">
+          {% if block.settings.before_label != blank %}
+            <div class="ai-comparison-slider-label-{{ ai_gen_id }}">{{ block.settings.before_label }}</div>
+          {% endif %}
+          {% if block.settings.after_label != blank %}
+            <div class="ai-comparison-slider-label-{{ ai_gen_id }}">{{ block.settings.after_label }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% else %}
+    <div class="ai-comparison-slider-placeholder-{{ ai_gen_id }}">
+      {{ 'image' | placeholder_svg_tag }}
+      <div class="ai-comparison-slider-empty-state-{{ ai_gen_id }}">
+        Add before and after images to create comparison
+      </div>
+    </div>
+  {% endif %}
+</image-comparison-slider-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ImageComparisonSlider{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.isDragging = false;
+        this.startX = 0;
+        this.currentPosition = 50;
+      }
+
+      connectedCallback() {
+        this.container = this.querySelector('.ai-comparison-slider-container-{{ ai_gen_id }}');
+        this.handle = this.querySelector('.ai-comparison-slider-handle-{{ ai_gen_id }}');
+        this.afterImage = this.querySelector('.ai-comparison-slider-after-{{ ai_gen_id }}');
+
+        if (!this.container || !this.handle || !this.afterImage) return;
+
+        this.setupEventListeners();
+        this.updateSlider(this.currentPosition);
+      }
+
+      setupEventListeners() {
+        this.handle.addEventListener('mousedown', this.startDrag.bind(this));
+        this.handle.addEventListener('touchstart', this.startDrag.bind(this), { passive: false });
+        
+        document.addEventListener('mousemove', this.drag.bind(this));
+        document.addEventListener('touchmove', this.drag.bind(this), { passive: false });
+        
+        document.addEventListener('mouseup', this.endDrag.bind(this));
+        document.addEventListener('touchend', this.endDrag.bind(this));
+
+        this.container.addEventListener('click', this.handleClick.bind(this));
+      }
+
+      startDrag(e) {
+        this.isDragging = true;
+        this.startX = this.getEventX(e);
+        e.preventDefault();
+      }
+
+      drag(e) {
+        if (!this.isDragging) return;
+
+        const rect = this.container.getBoundingClientRect();
+        const x = this.getEventX(e) - rect.left;
+        const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+        
+        this.updateSlider(percentage);
+        e.preventDefault();
+      }
+
+      endDrag() {
+        this.isDragging = false;
+      }
+
+      handleClick(e) {
+        if (this.isDragging) return;
+
+        const rect = this.container.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+        
+        this.updateSlider(percentage);
+      }
+
+      updateSlider(percentage) {
+        this.currentPosition = percentage;
+        this.handle.style.left = percentage + '%';
+        this.afterImage.style.clipPath = `inset(0 0 0 ${percentage}%)`;
+      }
+
+      getEventX(e) {
+        return e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+      }
+    }
+
+    customElements.define('image-comparison-slider-{{ ai_gen_id }}', ImageComparisonSlider{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Image comparison slider",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "before_image",
+      "label": "Before image"
+    },
+    {
+      "type": "image_picker",
+      "id": "after_image",
+      "label": "After image"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 300,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 800
+    },
+    {
+      "type": "range",
+      "id": "height",
+      "min": 200,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Height",
+      "default": 500
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Slider handle"
+    },
+    {
+      "type": "color",
+      "id": "handle_color",
+      "label": "Handle color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "handle_border_color",
+      "label": "Handle border color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "handle_size",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Handle size",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Labels"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_labels",
+      "label": "Show labels",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "before_label",
+      "label": "Before label",
+      "default": "Before"
+    },
+    {
+      "type": "text",
+      "id": "after_label",
+      "label": "After label",
+      "default": "After"
+    },
+    {
+      "type": "color",
+      "id": "label_bg_color",
+      "label": "Label background color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "label_text_color",
+      "label": "Label text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "label_font_size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Label font size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "label_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Label border radius",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "label_opacity",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Label opacity",
+      "default": 90
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image comparison slider"
+    }
+  ]
+}
+{% endschema %}

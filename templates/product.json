@@ -1,0 +1,851 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "review_stars_kXbpid": {
+          "type": "review-stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#02a8f4",
+            "review_text_color": "#000000",
+            "empty_stars_style": "hidden",
+            "review_text": "Based on over <strong>1000+</strong> Reviews",
+            "review_font_size": 16,
+            "review_alignment": "flex-start"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_UxVy9H": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>The power of effortless styling</strong>",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "shipping_checkpoints_Qb9idz": {
+          "type": "shipping-checkpoints",
+          "disabled": true,
+          "settings": {
+            "icon_1": "shopping_cart",
+            "text_1": "Purchase",
+            "start_date_1": 0,
+            "end_date_1": 0,
+            "icon_2": "local_shipping",
+            "text_2": "Shipped",
+            "start_date_2": 1,
+            "end_date_2": 2,
+            "icon_3": "shopping_bag",
+            "text_3": "Delivered",
+            "start_date_3": 10,
+            "end_date_3": 12,
+            "icon_4": "",
+            "text_4": "",
+            "date_format": "month %e",
+            "day_label": "%a",
+            "month_label": "%b",
+            "date_placement": "col",
+            "icon_color": "#ffffff",
+            "icon_background_color": "#000000",
+            "icon_size": "md",
+            "text_size": 12
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "icon_with_text_mNdJbt": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical_2",
+            "desktop_icon_size": 40,
+            "desktop_font_size": 12,
+            "mobile_icon_size": 23,
+            "mobile_font_size": 12,
+            "icon_1": "lock",
+            "heading_1": "Packed & Secured",
+            "icon_2": "truck",
+            "heading_2": "Free & Easy Returns",
+            "icon_3": "truck",
+            "heading_3": "",
+            "icon_4": "check_mark",
+            "heading_4": ""
+          }
+        },
+        "alert_text_JTGLJ9": {
+          "type": "alert_text",
+          "settings": {
+            "text": "IN STOCK, READY TO SHIP",
+            "text_color": "#2ecc71",
+            "font_size": 10,
+            "is_bold": true,
+            "in_stock_uppercase": true,
+            "show_dot": true,
+            "dot_color": "#2ecc71",
+            "dot_size": 12,
+            "animation": "fade"
+          }
+        },
+        "collapsible_tab_9jUktt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>Get salon-quality volume, shine, and curls in minutes with our fast-heating thermal brush. Safe for all hair types, easy to use, and perfect for effortless, everyday styling.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pnakVM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "icon": "none",
+            "content": "<p>We’ve got you covered! Your purchase comes with a 2<strong>-year limited warranty</strong>against manufacturing defects. If you experience any issues, our support team is here to help—hassle-free replacements guaranteed.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NfztYn": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials and specs",
+            "icon": "none",
+            "content": "<p>The 3-in-1 Round Brush is your all-in-one styling solution, combining a curler, straightener, and hairbrush in one convenient tool. With a ceramic-coated barrel and 8mm tangle-free bristles, it provides smooth, frizz-free hair with adjustable heat settings from 120°C to 210°C. The fast 30-second heat-up time and LCD display ensure a quick and customized styling experience. The 360° swivel cord allows for tangle-free use, while the ergonomic design ensures comfort during styling. Perfect for any hair type, this brush is your go-to tool for salon-quality results at home.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mXtiYD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Return & Refund Policy",
+            "icon": "none",
+            "content": "<p><strong>Shipping</strong>: We offer fast and reliable shipping options worldwide. Orders are processed within 1-2 business days. Delivery times vary depending on your location.</p><p><strong>Returns</strong>: We accept returns within 30 days of purchase. Items must be unused, in their original packaging, and in resalable condition. For returns, please contact our customer service team for instructions.</p><p><strong>Exchanges</strong>: If you wish to exchange an item, please reach out to us within 30 days of receiving your order.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_g7dfxV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FAQ",
+            "icon": "none",
+            "content": "<p><strong>How often should I use the thermal brush for best results?</strong><br/><br/>For most hair types, using the thermal brush 1–3 times a week is ideal. This keeps hair styled without overexposing it to heat.</p><p><strong>Is the thermal brush safe for all hair types?</strong><br/><br/>Yes! Our thermal brush is designed with adjustable heat settings, making it safe for fine, thick, curly, and even color-treated hair.</p><p><strong>Can I use the brush on damp hair?</strong><br/><br/>We recommend using the brush only on fully dry hair to prevent heat damage and achieve the smoothest, longest-lasting results.</p><p><strong>How do I clean and maintain my thermal brush?</strong><br/><br/>Simply unplug, let it cool, and wipe with a soft, damp cloth to remove any buildup. Avoid using harsh chemicals, and keep the brush stored in a cool, dry place.</p><p><strong>What’s the difference between this and a regular straightener?</strong><br/><br/>Unlike a regular straightener, our thermal brush adds volume and shine while styling, giving a more natural look with less flattening. It’s perfect for a quick, polished style with minimal effort!</p>",
+            "page": ""
+          }
+        },
+        "delivery_deadline_M8aRC4": {
+          "type": "delivery_deadline",
+          "settings": {
+            "date_text": "Ships by [DATE]",
+            "days": 2,
+            "date_format": "day, %e. month",
+            "day_label": "%A",
+            "month_label": "%b",
+            "date_size": 16,
+            "date_color": "#000000",
+            "timer_text": "<strong>Worldwide</strong> Shipping",
+            "hours": 1,
+            "minutes": 30,
+            "timer_size": 13,
+            "timer_color": "#02a8f4",
+            "text_layout": "col",
+            "text_alignment": "center"
+          }
+        },
+        "barn2_bundles_bulk_discounts_barn2_bundles_app_block_9BTBmD": {
+          "type": "shopify://apps/barn2-bundles-bulk-discounts/blocks/barn2-bundles-app-block/9093802f-ebea-4e54-8d68-a9e2eaad7180",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "payment_badges_mrRmGf": {
+          "type": "payment_badges",
+          "settings": {}
+        },
+        "product_reviews_BtgBXw": {
+          "type": "product_reviews",
+          "settings": {
+            "show_placeholder_image": true,
+            "reviewer_1": "<em>Emma S., New York, NY</em>",
+            "text_1": "<p>I love how quickly my hair goes from damp to shiny and styled. No frizz, just smooth curls every time!</p>",
+            "image_1": "shopify://shop_images/Screenshot_2025-09-30_at_8.57.51_AM.png",
+            "reviewer_2": "<em>Sophia L., Los Angeles, CA</em>",
+            "text_2": "<p>This all-in-one brush is a game-changer for my thick hair. It heats up fast and detangles without pulling.</p>",
+            "image_2": "shopify://shop_images/Screenshot_2025-09-30_at_8.59.18_AM.png",
+            "reviewer_3": "<em>Mia R., Chicago, IL</em>",
+            "text_3": "<p>Lightweight and easy to handle—my go-to styling tool. My hair has never looked so sleek and shiny.</p>",
+            "image_3": "shopify://shop_images/Screenshot_2025-09-30_at_9.00.42_AM.png",
+            "text_color": "#000000",
+            "text_alignment": "center",
+            "text_size": 18,
+            "display_stars": true,
+            "star_color": "#e8ccc7",
+            "star_size": 16,
+            "star_placement": "below",
+            "image_shape": "circle",
+            "image_size": 75,
+            "show_card": true,
+            "background_color": "#ffffff",
+            "auto_scroll": true,
+            "side": "left"
+          }
+        },
+        "scroll_to_j4gmfh": {
+          "type": "scroll_to",
+          "settings": {
+            "heading": "",
+            "heading_text_color": "#e8ccc7",
+            "heading_font_size": 14,
+            "button_1": "😊 Product Details",
+            "button_2": "⭐️ Reviews",
+            "button_3": "❓ FAQ",
+            "button_4": "+ Info",
+            "btn_background_color": "#ffffff",
+            "btn_text_color": "#0b0b0b",
+            "btn_border_radius": 15
+          }
+        }
+      },
+      "block_order": [
+        "quantity_selector",
+        "review_stars_kXbpid",
+        "title",
+        "price",
+        "text_UxVy9H",
+        "description",
+        "shipping_checkpoints_Qb9idz",
+        "buy_buttons",
+        "icon_with_text_mNdJbt",
+        "alert_text_JTGLJ9",
+        "collapsible_tab_9jUktt",
+        "collapsible_tab_pnakVM",
+        "collapsible_tab_NfztYn",
+        "collapsible_tab_mXtiYD",
+        "collapsible_tab_g7dfxV",
+        "delivery_deadline_M8aRC4",
+        "barn2_bundles_bulk_discounts_barn2_bundles_app_block_9BTBmD",
+        "variant_picker",
+        "payment_badges_mrRmGf",
+        "product_reviews_BtgBXw",
+        "scroll_to_j4gmfh"
+      ],
+      "custom_css": [
+        ".alert-text + .product__text {margin: 1rem 0;}",
+        ".alert-text:has(+ .product__text) {margin-bottom: 0.75rem;}",
+        ".product__media-item,.product__media-item img {padding: 1rem; box-sizing: border-box;}",
+        ".product-form__submit,button[name=\"add\"],button[type=\"submit\"] {background-color: #000 !important;}",
+        ".price__regular,.product__price,.product-price,.price-item {font-size: 2rem !important; /* adjust size as you like */ font-weight: 600; /* optional: make it bolder */}"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "color_scheme": "scheme-33989b75-987e-4c3f-b1fd-70db0f330757",
+        "media_size": "small",
+        "gallery_layout": "thumbnail",
+        "media_position": "right",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "product_info_padding": 2,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "blocky_scrolling_image_bar_WdCbAY": {
+      "type": "blocky-scrolling-image-bar",
+      "blocks": {
+        "image_JaMFJ7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-15_at_15.26.36.jpg"
+          }
+        },
+        "image_VYcR7y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-15_at_15.31.20.jpg"
+          }
+        },
+        "image_nxCDdY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2025-04-12_204546420.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_JaMFJ7",
+        "image_VYcR7y",
+        "image_nxCDdY"
+      ],
+      "settings": {
+        "image_height": 130,
+        "image_shape": "adapt",
+        "image_spacing": 2.5,
+        "border_radius": 13,
+        "speed": 1,
+        "background_color": "#ffffff",
+        "show_shadow": true,
+        "show_blur": true,
+        "disable_carousel": false,
+        "title": "",
+        "title_size": 30,
+        "title_color": "#000000",
+        "body_text": "",
+        "body_size": 10,
+        "body_color": "#000000",
+        "text_background_color": "#ffffff",
+        "text_padding": 3,
+        "hide_mobile": false,
+        "desktop_position": "over-text",
+        "mobile_position": "over-text",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "blocky_testimonials_6JAbqt": {
+      "type": "blocky-testimonials",
+      "blocks": {
+        "review_stars_RVnVjJ": {
+          "type": "review-stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#e8ccc7",
+            "review_text_color": "#000000",
+            "empty_stars_style": "hidden",
+            "review_text": "Based on over <strong>1000+</strong> Reviews",
+            "review_font_size": 16,
+            "show_in_card": true,
+            "card_border_radius": 12,
+            "card_background_color": "#ffffff"
+          }
+        },
+        "title_7iHAch": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Loved by Women Everywhere</strong>",
+            "title_size": 45,
+            "title_color": "#000000"
+          }
+        },
+        "body_C6Y7Fg": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>Real feedback from happy stylers</p>",
+            "body_size": 18,
+            "body_color": "#000000"
+          }
+        },
+        "tags_JbDhim": {
+          "type": "tags",
+          "settings": {
+            "tag_1": "<strong>\"Fast Heating ⚡\"</strong>",
+            "tag_2": "<strong>\"Frizz-Free Shine ✨\"</strong>",
+            "tag_3": "<strong>\"Tangle-Free Brushing 💖\"</strong>",
+            "tag_4": "<strong>\"Customizable Heat 🔥\"</strong>",
+            "tag_text_color": "#000000",
+            "tag_font_size": 16,
+            "tags_border_radius": 12,
+            "tilt_tags": true,
+            "tags_background_color": "#ffffff"
+          }
+        },
+        "testimonial_EFxxPK": {
+          "type": "testimonial",
+          "settings": {
+            "heading_1": "<strong>A Game-Changer for Mornings</strong>",
+            "desc_1": "<p>\"This brush saved me so much time! My hair looks fresh and styled in minutes.\"</p>",
+            "author_1": "Olivia B.",
+            "location_1": "Seattle, WA",
+            "heading_2": "<strong>Salon Results at Home</strong>",
+            "desc_2": "<p>\"I seriously get salon-quality shine and smoothness without the appointment.\"</p>",
+            "author_2": "Chloe M.",
+            "location_2": "Austin, TX",
+            "heading_3": "<strong>Curly Hair Approved!</strong>",
+            "desc_3": "<p>\"Finally a tool that enhances my curls without frizz or damage.\"</p>",
+            "author_3": "Isabella G.",
+            "location_3": "Miami, FL",
+            "heading_color": "#000000",
+            "desc_color": "#000000",
+            "heading_font_size": 15,
+            "desc_font_size": 17,
+            "author_font_size": 14,
+            "location_font_size": 11,
+            "media_shape": "adapt",
+            "media_width": 65,
+            "star_color": "#e8ccc7",
+            "show_stars": true,
+            "content_container_gap": "1rem",
+            "card_content_alignment": "left",
+            "card_background_color": "#ffffff",
+            "show_border_above_author": false,
+            "play_button_color": "#ffffff",
+            "play_button_background_color": "#e8ccc7"
+          }
+        }
+      },
+      "block_order": [
+        "review_stars_RVnVjJ",
+        "title_7iHAch",
+        "body_C6Y7Fg",
+        "tags_JbDhim",
+        "testimonial_EFxxPK"
+      ],
+      "settings": {
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "text_container_gap": "2.5rem",
+        "border_radius": 15,
+        "background_color": "#fcf7f7",
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17599070280720a31b": {
+      "type": "apps",
+      "blocks": {
+        "magic_before_and_after_slider_beforeaftersliderblock_PbcFDD": {
+          "type": "shopify://apps/magic-before-and-after-slider/blocks/beforeaftersliderblock/5cfc7c2a-38c2-44b3-bf72-3e545dff694c",
+          "settings": {
+            "main_heading": "",
+            "slider_description": "<h2><strong>Salon-worthy hair, without the salon</strong></h2>",
+            "before_image": "shopify://shop_images/Screenshot_2025-10-08_at_9.11.11_AM.png",
+            "after_image": "shopify://shop_images/image_2025-05-27_155913798.png",
+            "before_label": "Before",
+            "after_label": "After",
+            "show_handle_label": true,
+            "orientation": "horizontal",
+            "slider_before_position": "center",
+            "slider_after_position": "center",
+            "slider_handle_style": "1",
+            "slider_handle_color": "#ffffff",
+            "slider_label_color": "#ffffff",
+            "slider_label_style": "1",
+            "border_radius": 34,
+            "slider_width": 100,
+            "custom_css": "/* Add your custom CSS here */"
+          }
+        }
+      },
+      "block_order": [
+        "magic_before_and_after_slider_beforeaftersliderblock_PbcFDD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "blocky_image_video_slider_NUabdG": {
+      "type": "blocky-image-video-slider",
+      "blocks": {
+        "image_kULHce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2025-04-15_185149118.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_yrYkie": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2025-04-15_190021653.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_RzgrVA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2025-04-15_190357043.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_kULHce",
+        "image_yrYkie",
+        "image_RzgrVA"
+      ],
+      "name": "Blocky Image/Video Slider",
+      "settings": {
+        "title": "<strong>Styling</strong> <strong>as</strong> easy as <strong>1, 2, 3</strong>",
+        "title_size": 51,
+        "title_color": "#000000",
+        "body_text": "",
+        "body_color": "#000000",
+        "auto_scroll": false,
+        "arrow-background-color": "#000000",
+        "arrow-carot-color": "#ffffff",
+        "dot-color": "#000000",
+        "play_button_color": "#ffffff",
+        "play_button_background_color": "#000000",
+        "media_size": "long",
+        "slides_desktop": 3,
+        "full_screen": false,
+        "desktop_content_alignment": "center",
+        "mobile_media_size": "long",
+        "slides_mobile": 3,
+        "mobile_content_alignment": "center",
+        "media_spacing": 26,
+        "arrows_position": "slider",
+        "dots_position": "hidden",
+        "background_color": "#ffffff",
+        "show_blur": true,
+        "show_shadow": true,
+        "page_width": 1200,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "blocky_product_features_and_icons_ApcrAM": {
+      "type": "blocky-product-features-and-icons",
+      "blocks": {
+        "icon_XbNib4": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "flash_on",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Rapid Heat-Up</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Reach styling temperature in just 30 seconds for quicker routines</p>",
+            "icon_text_color": "#606367"
+          }
+        },
+        "icon_KWXpDD": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "settings",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Customizable Control</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Five heat settings from 120°C to 210°C to suit all hair types</p>",
+            "icon_text_color": "#606367"
+          }
+        },
+        "icon_fBGggk": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "brush",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Tangle-Free Bristles</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>8mm nylon bristles gently detangle while styling without snagging</p>",
+            "icon_text_color": "#606367"
+          }
+        },
+        "icon_ByYjwF": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "tone",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Frizz-Free Shine</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Negative-ion technology smooths cuticles and boosts luminous shine</p>",
+            "icon_text_color": "#606367"
+          }
+        }
+      },
+      "block_order": [
+        "icon_XbNib4",
+        "icon_KWXpDD",
+        "icon_fBGggk",
+        "icon_ByYjwF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/49a1c7df941b3a071fdc4bfcf69cebd406d39b39_1024_1024.jpg",
+        "video_fit": "zoomed",
+        "media_size": 100,
+        "autoplay": true,
+        "play_button_color": "#ffffff",
+        "play_button_background_color": "#e8ccc7",
+        "body_text": "<p>Your daily styling, simplified</p>",
+        "body_color": "#000000",
+        "title": "<strong>Effortless Glam in Minutes</strong>",
+        "title_size": 30,
+        "title_color": "#000000",
+        "text_layout": "body-first",
+        "icon_position": "top",
+        "background_color": "#ffffff",
+        "show_shadow": true,
+        "show_icon_code_shadow": false,
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_image_video_slider_3RUnNn": {
+      "type": "blocky-image-video-slider",
+      "blocks": {
+        "image_piMnA8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-15_at_15.31.20.jpg",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_YGPQ9M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2025-05-27_183329994.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_XAJfqL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_2025-05-27_183901889.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_piMnA8",
+        "image_YGPQ9M",
+        "image_XAJfqL"
+      ],
+      "settings": {
+        "title": "<span style=\"text-decoration:underline\"><strong>Watch the Magic in Action</strong></span>",
+        "title_size": 40,
+        "title_color": "#000000",
+        "body_text": "<h2><strong>See real women transform their hair effortlessly</strong></h2>",
+        "body_color": "#000000",
+        "auto_scroll": false,
+        "arrow-background-color": "#000000",
+        "arrow-carot-color": "#ffffff",
+        "dot-color": "#000000",
+        "play_button_color": "#ffffff",
+        "play_button_background_color": "#000000",
+        "media_size": "long",
+        "slides_desktop": 3,
+        "full_screen": false,
+        "desktop_content_alignment": "center",
+        "mobile_media_size": "long",
+        "slides_mobile": 2,
+        "mobile_content_alignment": "center",
+        "media_spacing": 28,
+        "arrows_position": "hidden",
+        "dots_position": "under",
+        "background_color": "#ffffff",
+        "show_blur": false,
+        "show_shadow": true,
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_lys_scroll_to_target_H6MFf6": {
+      "type": "blocky-lys-scroll-to-target",
+      "settings": {
+        "scroll_to_target": "blocky-scroll-to-target-1"
+      }
+    },
+    "blocky_faq_QV9KEN": {
+      "type": "blocky-faq",
+      "blocks": {
+        "question_pN4cG6": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What heat settings are available?</strong>",
+            "content": "<p>The brush offers five adjustable heat settings from 120°C to 210°C, letting you choose the perfect temperature for fine, thick, curly or color-treated hair.</p>",
+            "default_open": true,
+            "icon_code": "",
+            "icon_color": "#000000"
+          }
+        },
+        "question_Jziarn": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I use it on wet hair?</strong>",
+            "content": "<p>Yes—this is a 3-in-1 tool that dries while you style. Start on towel-dried hair for best results.</p>",
+            "default_open": false,
+            "icon_code": "",
+            "icon_color": "#000000"
+          }
+        },
+        "question_TfceAn": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Is it safe on color-treated hair?</strong>",
+            "content": "<p>Absolutely. The ceramic barrel and ion technology protect and enhance your hair, minimizing damage and preserving color vibrancy.</p>",
+            "default_open": false,
+            "icon_code": "",
+            "icon_color": "#000000"
+          }
+        },
+        "question_g8zyDq": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How do I clean the brush?</strong>",
+            "content": "<p>After unplugging and cooling, gently remove hair from the bristles and wipe the barrel with a damp cloth. Do not immerse in water.</p>",
+            "default_open": false,
+            "icon_code": "",
+            "icon_color": "#000000"
+          }
+        },
+        "question_cNVbpN": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How long does shipping take?</strong>",
+            "content": "<p>Standard shipping typically arrives in 3-5 business days after processing within 24 hours of order placement.</p>",
+            "default_open": false,
+            "icon_code": "",
+            "icon_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "question_pN4cG6",
+        "question_Jziarn",
+        "question_TfceAn",
+        "question_g8zyDq",
+        "question_cNVbpN"
+      ],
+      "settings": {
+        "title": "<strong>Got Questions? We Have Answers!</strong>",
+        "title_size": 40,
+        "title_color": "#000000",
+        "body_text": "<p>Find out everything you need to know about your Thermal Styling Brush.</p>",
+        "body_size": 18,
+        "body_color": "#000000",
+        "button_label": "<p>Reach Out for Help</p>",
+        "button_link": "",
+        "button_border_radius": "curved",
+        "button_background_color": "#ece8e6",
+        "button_text_color": "#000000",
+        "faq_layout": "row",
+        "question_padding": 15,
+        "faq_border_radius": 15,
+        "faq_container_background": "#ffffff",
+        "question_font_size": 18,
+        "answer_font_size": 16,
+        "question_text_color": "#000000",
+        "answer_text_color": "#606367",
+        "layout": "row-reverse",
+        "desktop_faq_width": "large",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "text_container_gap": "2rem",
+        "background_color": "#fcf7f7",
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_section_divider_ahdQMG": {
+      "type": "blocky-section-divider",
+      "settings": {
+        "shape": "diagonal_1",
+        "flip_horizontal": true,
+        "flip_vertical": true,
+        "shape_color": "#fcf7f7",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "blocky_lys_scroll_to_target_YfRcaK": {
+      "type": "blocky-lys-scroll-to-target",
+      "settings": {
+        "scroll_to_target": "blocky-scroll-to-target-2"
+      }
+    },
+    "blocky_lys_scroll_to_target_Gbziz9": {
+      "type": "blocky-lys-scroll-to-target",
+      "settings": {
+        "scroll_to_target": "blocky-scroll-to-target-3"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 2,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blocky_scrolling_image_bar_WdCbAY",
+    "blocky_testimonials_6JAbqt",
+    "17599070280720a31b",
+    "blocky_image_video_slider_NUabdG",
+    "blocky_product_features_and_icons_ApcrAM",
+    "blocky_image_video_slider_3RUnNn",
+    "blocky_lys_scroll_to_target_H6MFf6",
+    "blocky_faq_QV9KEN",
+    "blocky_section_divider_ahdQMG",
+    "blocky_lys_scroll_to_target_YfRcaK",
+    "blocky_lys_scroll_to_target_Gbziz9",
+    "related-products"
+  ]
+}

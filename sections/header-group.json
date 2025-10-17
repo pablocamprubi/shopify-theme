@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement_bar_NQKPQk": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_AwgkPm": {
+          "type": "announcement",
+          "settings": {
+            "text": "❤️ 10,000+ Happy Customers",
+            "link": ""
+          }
+        },
+        "announcement_jBqxn8": {
+          "type": "announcement",
+          "settings": {
+            "text": "⏳ Limited Stock Available",
+            "link": ""
+          }
+        },
+        "announcement_XzLVGW": {
+          "type": "announcement",
+          "settings": {
+            "text": "📦 Free Shipping",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_AwgkPm",
+        "announcement_jBqxn8",
+        "announcement_XzLVGW"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2a5632ff-9b2d-4710-92ac-3775e2d2e19b",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement_bar_NQKPQk",
+    "header"
+  ]
+}

@@ -1,0 +1,422 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "blocky_product_feature_2_QA8frd": {
+      "type": "blocky-product-feature-2",
+      "blocks": {
+        "slide_Aj4qLa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pdp-Image7.jpg",
+            "image_fit": "cover",
+            "headline": "Your 3-in-1 shortcut to salon-worthy hair.",
+            "headline_size": 20,
+            "headline_color": "#000000",
+            "title": "<strong>Dry, Smooth, Curl in One Go</strong>",
+            "title_size": 50,
+            "title_color": "#000000",
+            "body_text": "",
+            "body_color": "#000000",
+            "button_label": "Start Styling Now",
+            "button_link": "",
+            "button_border_radius": "curved",
+            "button_style": "regular",
+            "button_background_color": "#e8ccc7",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "slide_twnYpq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-29_at_8.27.19_PM.png",
+            "image_fit": "cover",
+            "headline": "5 settings, rapid heat-up, total precision.",
+            "headline_size": 20,
+            "headline_color": "#000000",
+            "title": "<strong>Heat Control at Your Fingertips</strong>",
+            "title_size": 50,
+            "title_color": "#000000",
+            "body_text": "",
+            "body_color": "#000000",
+            "button_label": "Choose Your Temperature",
+            "button_link": "",
+            "button_border_radius": "curved",
+            "button_style": "regular",
+            "button_background_color": "#e8ccc7",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "slide_wN6YWc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-09-29_at_1.15.37_PM.png",
+            "image_fit": "cover",
+            "headline": "Negative-ion magic for glossy, smooth locks.",
+            "headline_size": 20,
+            "headline_color": "#000000",
+            "title": "<strong>Shine and Frizz-Free Every Day</strong>",
+            "title_size": 50,
+            "title_color": "#000000",
+            "body_text": "",
+            "body_color": "#000000",
+            "button_label": "Get Frizz-Free Hair",
+            "button_link": "",
+            "button_border_radius": "curved",
+            "button_style": "regular",
+            "button_background_color": "#e8ccc7",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Aj4qLa",
+        "slide_twnYpq",
+        "slide_wN6YWc"
+      ],
+      "custom_css": [
+        "*a.blocky-button[style*=\"#e8ccc7\"] {border: 2px solid #000 !important;}"
+      ],
+      "settings": {
+        "image_height": "small",
+        "mobile_image_height": "small",
+        "image_width": "medium",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_container_gap": "1rem",
+        "side-slide-opacity": 25,
+        "arrow-background-color": "#0b0b0b",
+        "arrow-carot-color": "#ffffff",
+        "arrows_position": "under",
+        "background_color": "#ffffff",
+        "page_width": 1200,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "blocky_multicolumn_with_text_and_icon_R8kfxq": {
+      "type": "blocky-multicolumn-with-text-and-icon",
+      "blocks": {
+        "column_TMeL3k": {
+          "type": "column",
+          "settings": {
+            "icon_code": "payments",
+            "icon_color": "#e8ccc7",
+            "heading": "<h4><strong>Safe Shopping</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 30,
+            "text": "<p>Enjoy peace of mind with encrypted payments to keep your information safe.</p>",
+            "text_color": "#000000",
+            "text_font_size": 18,
+            "background_color": "#fcf7f7"
+          }
+        },
+        "column_capVTn": {
+          "type": "column",
+          "settings": {
+            "icon_code": "delivery_truck_speed",
+            "icon_color": "#e8ccc7",
+            "heading": "<h4><strong>Fast Shipping</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 30,
+            "text": "<p>We process and ship orders quickly for prompt delivery.</p>",
+            "text_color": "#000000",
+            "text_font_size": 18,
+            "background_color": "#fcf7f7"
+          }
+        },
+        "column_KPiVAV": {
+          "type": "column",
+          "settings": {
+            "icon_code": "support_agent",
+            "icon_color": "#e8ccc7",
+            "heading": "<h4><strong>24/7 Support</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 30,
+            "text": "<p>Our team is always available to help with any questions or concerns.</p>",
+            "text_color": "#000000",
+            "text_font_size": 18,
+            "background_color": "#fcf7f7"
+          }
+        },
+        "column_g93c84": {
+          "type": "column",
+          "settings": {
+            "icon_code": "package_2",
+            "icon_color": "#e8ccc7",
+            "heading": "<h4><strong>Easy Return</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 30,
+            "text": "<p>Our hassle-free return and exchange policy ensures satisfaction.</p>",
+            "text_color": "#000000",
+            "text_font_size": 18,
+            "background_color": "#fcf7f7"
+          }
+        }
+      },
+      "block_order": [
+        "column_TMeL3k",
+        "column_capVTn",
+        "column_KPiVAV",
+        "column_g93c84"
+      ],
+      "custom_css": [
+        ".product-form__submit,button[name=\"add\"],.add-to-cart,.shopify-payment-button__button {border: 2px solid #000 !important;}"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "icon_position": "top",
+        "text_alignment": "center",
+        "icon_size_px": 35,
+        "columns_mobile": 1,
+        "mobile_icon_position": "right",
+        "mobile_text_alignment": "center",
+        "mobile_icon_size_px": 40,
+        "title": "",
+        "title_size": 30,
+        "title_color": "#000000",
+        "title_alignment": "center",
+        "columns_gap": 30,
+        "show_shadow": true,
+        "full_screen": false,
+        "background_color": "#ffffff",
+        "page_width": 1200,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_8BhDwR": {
+      "type": "featured-product",
+      "blocks": {
+        "review_stars_hftQ83": {
+          "type": "review-stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#e8ccc7",
+            "review_text_color": "#000000",
+            "empty_stars_style": "hidden",
+            "review_text": "Based on over <strong>1000+</strong> Reviews",
+            "review_font_size": 16,
+            "review_alignment": "flex-start"
+          }
+        },
+        "title_aJKq6B": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_94hMhQ": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_qYxpCY": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_TyyYp4": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_RRxELV": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "review_stars_hftQ83",
+        "title_aJKq6B",
+        "price_94hMhQ",
+        "variant_picker_qYxpCY",
+        "quantity_selector_TyyYp4",
+        "buy_buttons_RRxELV"
+      ],
+      "settings": {
+        "product": "thermal-styling-brush",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_product_features_and_icons_NaFF9F": {
+      "type": "blocky-product-features-and-icons",
+      "blocks": {
+        "icon_bBxnUb": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "schedule",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Quick Styling</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Cut your morning routine in half.</p>",
+            "icon_text_color": "#000000"
+          }
+        },
+        "icon_bWa4yU": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "flash_on",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Instant Shine</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Enjoy glossy locks every time.</p>",
+            "icon_text_color": "#000000"
+          }
+        },
+        "icon_Mx6Jd3": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "thumb_up",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>Effortless Confidence</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Feel your best with every flip.</p>",
+            "icon_text_color": "#000000"
+          }
+        },
+        "icon_qKdXqg": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "flight",
+            "icon_color": "#e8ccc7",
+            "icon_heading": "<h3><strong>On-the-Go Glam</strong></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Packable style for any adventure.</p>",
+            "icon_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "icon_bBxnUb",
+        "icon_bWa4yU",
+        "icon_Mx6Jd3",
+        "icon_qKdXqg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/49a1c7df941b3a071fdc4bfcf69cebd406d39b39_1024_1024.jpg",
+        "video_fit": "zoomed",
+        "media_size": 66,
+        "autoplay": true,
+        "play_button_color": "#ffffff",
+        "play_button_background_color": "#e8ccc7",
+        "body_text": "",
+        "body_color": "#000000",
+        "title": "<strong>Quick Styling</strong>",
+        "title_size": 48,
+        "title_color": "#000000",
+        "text_layout": "body-first",
+        "icon_position": "top",
+        "background_color": "#ffffff",
+        "show_shadow": true,
+        "show_icon_code_shadow": false,
+        "page_width": 800,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_image_embedded_rL7DPQ": {
+      "type": "blocky-image-embedded",
+      "settings": {
+        "image": "shopify://shop_images/image_2025-05-27_183809160.png",
+        "section_height": "100vh",
+        "mobile_height": "300px",
+        "image_fit": "fill",
+        "border_radius": 5,
+        "overlay_opacity": 0,
+        "text_align": "vertical-center horizontal-center",
+        "full_screen": false,
+        "page_width": 1200,
+        "padding_top": 14,
+        "padding_bottom": 50
+      }
+    },
+    "rich_text_tUwrNL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DjztR3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Ready for Your Best Hair Day?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tCe7Fe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform your routine and shine with confidence.</p>"
+          }
+        },
+        "button_Dix7nf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Your Brush Now",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DjztR3",
+        "text_tCe7Fe",
+        "button_Dix7nf"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "blocky_section_divider_wXYtCY": {
+      "type": "blocky-section-divider",
+      "settings": {
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "#e8ccc7",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "blocky_product_feature_2_QA8frd",
+    "blocky_multicolumn_with_text_and_icon_R8kfxq",
+    "featured_product_8BhDwR",
+    "blocky_product_features_and_icons_NaFF9F",
+    "blocky_image_embedded_rL7DPQ",
+    "rich_text_tUwrNL",
+    "blocky_section_divider_wXYtCY"
+  ]
+}
