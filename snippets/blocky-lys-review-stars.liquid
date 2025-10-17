@@ -27,8 +27,8 @@
       {{ star_overlay }}
       {{ star_overlay }}
     </div>
+    <span class="product-review-stars-label" style="color: {{ block.settings.review_text_color }};">{{ block.settings.review_text }}</span>
   </div>
-  <span class="product-review-stars-label" style="color: {{ block.settings.review_text_color }};">{{ block.settings.review_text }}</span>
   <div class="product-review-customer-quote" style="color: {{ block.settings.review_text_color }}; font-style: italic; margin-top: 0.5rem;">
     "This revolutionized my hair routine"
   </div>
@@ -49,6 +49,7 @@
 
 .product-review-stars-label {
   margin-left: 0.5rem;
+  display: inline;
 }
 
 .product-review-customer-quote {
