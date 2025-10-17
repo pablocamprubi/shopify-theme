@@ -23,7 +23,7 @@
             "star_color": "#02a8f4",
             "review_text_color": "#000000",
             "empty_stars_style": "hidden",
-            "review_text": "Based on over <strong>1000+</strong> Reviews",
+            "review_text": "<strong>+1000</strong> reviews",
             "review_font_size": 16,
             "review_alignment": "flex-start"
           }
@@ -344,7 +344,7 @@
             "star_color": "#e8ccc7",
             "review_text_color": "#000000",
             "empty_stars_style": "hidden",
-            "review_text": "Based on over <strong>1000+</strong> Reviews",
+            "review_text": "<strong>+1000</strong> reviews",
             "review_font_size": 16,
             "show_in_card": true,
             "card_border_radius": 12,
