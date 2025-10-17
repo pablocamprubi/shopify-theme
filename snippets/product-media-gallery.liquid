@@ -343,5 +343,52 @@
     margin-bottom: 0.5rem !important;
     padding-bottom: 0 !important;
   }
+  
+  /* Move navigation arrows to be positioned over the main image */
+  #GalleryViewer-{{ section.id }} {
+    position: relative;
+  }
+  
+  /* Override existing mobile styles to show arrows on main image */
+  .product__media-wrapper .slider-mobile-gutter .slider-button {
+    display: flex !important;
+  }
+  
+  #GalleryViewer-{{ section.id }} .slider-buttons {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex !important;
+    justify-content: space-between;
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  #GalleryViewer-{{ section.id }} .slider-button {
+    pointer-events: auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  #GalleryViewer-{{ section.id }} .slider-button--prev {
+    margin-left: 1rem;
+  }
+  
+  #GalleryViewer-{{ section.id }} .slider-button--next {
+    margin-right: 1rem;
+  }
+  
+  /* Hide arrows on thumbnail carousel */
+  #GalleryThumbnails-{{ section.id }} .slider-button {
+    display: none !important;
+  }
 }
 </style>
