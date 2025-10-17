@@ -33,3 +33,26 @@
     "This revolutionized my hair routine"
   </div>
 </div>
+
+<style>
+.product-review-stars {
+  display: flex;
+  flex-direction: column;
+  align-items: {{ block.settings.review_alignment }};
+}
+
+.product-review-stars-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.product-review-stars-label {
+  margin-left: 0.5rem;
+}
+
+.product-review-customer-quote {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+</style>
